@@ -1,0 +1,4 @@
+pyquery
+aiohttp
+tornado==5.0.2
+motor==2.0
