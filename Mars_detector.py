@@ -23,7 +23,7 @@ class Detector:
         else:
             self.x_axis -= 1
 
-        status = False if self.x_axis > max_x or self.y_axis > max_y else True
+        status = True if 0 <= self.x_axis <= max_x and 0 <= self.y_axis <= max_y else False
         return status
 
     def rotate(self, rotate_direction):
